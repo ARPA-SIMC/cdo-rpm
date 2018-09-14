@@ -33,7 +33,6 @@ Authors:
 
 
 %build
-autoreconf -ifv
 %configure --prefix=%{_prefix} --with-netcdf
 make 
 
