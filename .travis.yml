@@ -10,8 +10,13 @@ script:
 
 env:
     - DOCKER_IMAGE=centos:7
-    - DOCKER_IMAGE=fedora:28
-    - DOCKER_IMAGE=fedora:27
+    - DOCKER_IMAGE=fedora:29
+    - DOCKER_IMAGE=fedora:30
+    - DOCKER_IMAGE=fedora:rawhide
+
+matrix:
+    allow_failures:
+        - env: DOCKER_IMAGE=fedora:rawhide
 
 before_deploy:
     - openssl aes-256-cbc -K $encrypted_3dbacb687030_key -iv $encrypted_3dbacb687030_iv -in .copr.enc -out .copr -d
