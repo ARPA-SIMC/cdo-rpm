@@ -1,5 +1,5 @@
 Name:           cdo
-Version:        1.9.5
+Version:        1.9.8
 Release:        1
 Summary:        Climate Data Operators
 License:        GPLv2
@@ -49,5 +49,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/bin/cdo
 
 %changelog
+* Fri Apr 24 2020 - Daniele Branchini <dbranchini@arpae.it> - 1.9.8-1
+- Upstream update (fixes #1)
+
 * Fri Sep 14 2018 - Daniele Branchini <dbranchini@arpae.it> - 1.9.5-1
 - First build
