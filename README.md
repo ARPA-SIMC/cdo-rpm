@@ -14,7 +14,6 @@
 
 ## Introduction
 
-
 This github repository neither hosts nor provide cdo sources, it's meant to
 host (unofficial) convenience files for Fedora and CentOs rpm packaging and
 feeding che copr repo: https://copr.fedorainfracloud.org/coprs/simc/stable/
@@ -22,3 +21,6 @@ feeding che copr repo: https://copr.fedorainfracloud.org/coprs/simc/stable/
 For cdo source see: https://code.mpimet.mpg.de/projects/cdo/files
 
 For information about cdo see: https://code.mpimet.mpg.de/projects/cdo/wiki
+
+For CentOS and Fedora, rpm packages are hosted in a copr repo:
+https://copr.fedorainfracloud.org/coprs/simc/stable/
