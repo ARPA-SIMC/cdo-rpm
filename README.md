@@ -1,18 +1,10 @@
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/cdo-rpm?branch=master&env=DOCKER_IMAGE=centos:7&label=centos7)](https://travis-ci.org/ARPA-SIMC/cdo-rpm)
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/cdo-rpm?branch=master&env=DOCKER_IMAGE=centos:8&label=centos8)](https://travis-ci.org/ARPA-SIMC/cdo-rpm)
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/cdo-rpm?branch=master&env=DOCKER_IMAGE=fedora:32&label=fedora32)](https://travis-ci.org/ARPA-SIMC/cdo-rpm)
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/cdo-rpm?branch=master&env=DOCKER_IMAGE=fedora:33&label=fedora33)](https://travis-ci.org/ARPA-SIMC/cdo-rpm)
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/cdo-rpm?branch=master&env=DOCKER_IMAGE=fedora:rawhide&label=fedorarawhide)](https://travis-ci.org/ARPA-SIMC/cdo-rpm)
+[![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/centos7.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
+[![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/centos8.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
+[![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/fedora32.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
+[![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/fedora34.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
 [![Build Status](https://copr.fedorainfracloud.org/coprs/simc/stable/package/cdo/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/simc/stable/package/cdo/)
 
 # rpm packaging files for cdo
-
-
-## Build status
-
-
-
-## Introduction
 
 This github repository neither hosts nor provide cdo sources, it's meant to
 host (unofficial) convenience files for Fedora and CentOs rpm packaging and
