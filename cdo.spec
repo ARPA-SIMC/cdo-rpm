@@ -1,5 +1,5 @@
 Name:           cdo
-Version:        1.9.8
+Version:        2.2.0
 Release:        1
 Summary:        Climate Data Operators
 License:        GPLv2
