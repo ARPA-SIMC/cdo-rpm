@@ -1,10 +1,10 @@
 Name:           cdo
-Version:        1.9.8
+Version:        2.2.0
 Release:        1
 Summary:        Climate Data Operators
 License:        GPLv2
 URL:            https://code.zmaw.de/projects/cdo
-Source:         https://code.mpimet.mpg.de/attachments/download/20826/cdo-%{version}.tar.gz
+Source:         https://code.mpimet.mpg.de/attachments/download/28013/cdo-%{version}.tar.gz
 BuildRequires:  libtool
 BuildRequires:  gcc-c++
 BuildRequires:  gcc-gfortran
