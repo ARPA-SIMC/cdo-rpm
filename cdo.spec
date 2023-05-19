@@ -1,6 +1,6 @@
 Name:           cdo
 Version:        2.2.0
-Release:        1
+Release:        2
 Summary:        Climate Data Operators
 License:        GPLv2
 URL:            https://code.zmaw.de/projects/cdo
@@ -49,6 +49,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/bin/cdo
 
 %changelog
+* Fri May 19 2023 - Emanuele Di Giacomo <edigiacomo@arpae.it> - 2.2.0-2
+- Upstream update
+
 * Fri Apr 24 2020 - Daniele Branchini <dbranchini@arpae.it> - 1.9.8-1
 - Upstream update (fixes #1)
 
