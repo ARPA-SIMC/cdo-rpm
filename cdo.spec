@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,755)
-%doc AUTHORS COPYING ChangeLog NEWS OPERATORS README doc/cdo.pdf doc/cdo_refcard.pdf
+%doc AUTHORS LICENSE ChangeLog NEWS OPERATORS README doc/cdo.pdf doc/cdo_refcard.pdf
 %{_prefix}/bin/cdo
 
 %changelog
