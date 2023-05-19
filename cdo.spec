@@ -5,6 +5,7 @@ Summary:        Climate Data Operators
 License:        GPLv2
 URL:            https://code.zmaw.de/projects/cdo
 Source:         https://code.mpimet.mpg.de/attachments/download/28013/cdo-%{version}.tar.gz
+BuildRequires:  python3
 BuildRequires:  libtool
 BuildRequires:  gcc-c++
 BuildRequires:  gcc-gfortran
