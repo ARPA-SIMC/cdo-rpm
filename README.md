@@ -1,4 +1,3 @@
-[![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/centos7.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
 [![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/rocky8.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
 [![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/rocky9.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
 [![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/fedora36.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
