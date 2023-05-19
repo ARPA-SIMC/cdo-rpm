@@ -9,7 +9,7 @@ BuildRequires:  libtool
 BuildRequires:  gcc-c++
 BuildRequires:  gcc-gfortran
 BuildRequires:  netcdf-cxx-devel
-Requires:       netcdf
+BuildRequires:  hdf5-devel
 
 %description
 CDO is a collection of command line Operators to manipulate and analyse Climate model Data.
@@ -33,7 +33,7 @@ Authors:
 
 
 %build
-%configure --prefix=%{_prefix} --with-netcdf
+%configure --prefix=%{_prefix} --with-netcdf --with-hdf5
 make 
 
 %install
