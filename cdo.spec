@@ -1,16 +1,18 @@
 Name:           cdo
-Version:        2.2.0
-Release:        3
+Version:        2.4.0
+Release:        1
 Summary:        Climate Data Operators
 License:        GPLv2
 URL:            https://code.zmaw.de/projects/cdo
-Source:         https://code.mpimet.mpg.de/attachments/download/28013/cdo-%{version}.tar.gz
+Source:         https://code.mpimet.mpg.de/attachments/download/29649/cdo-%{version}.tar.gz
 BuildRequires:  python3
 BuildRequires:  libtool
 BuildRequires:  gcc-c++
 BuildRequires:  gcc-gfortran
 BuildRequires:  netcdf-cxx-devel
 BuildRequires:  hdf5-devel
+BuildRequires:  eccodes-devel
+
 
 %description
 CDO is a collection of command line Operators to manipulate and analyse Climate model Data.
@@ -34,7 +36,7 @@ Authors:
 
 
 %build
-%configure --prefix=%{_prefix} --with-netcdf --with-hdf5
+%configure --prefix=%{_prefix} --with-netcdf --with-hdf5 --with-eccodes
 make 
 
 %install
@@ -50,6 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/bin/cdo
 
 %changelog
+* Thu Sep 19 2024 Daniele Branchini <dbranchini@arpae.it> - 2.4.0-1
+- Upstream update, added eccodes (GRIB/GRIB2) support
+
 * Fri May 19 2023 - Emanuele Di Giacomo <edigiacomo@arpae.it> - 2.2.0-3
 - Add python3 in BuildRequires
 
