@@ -1,5 +1,5 @@
 Name:           cdo
-Version:        2.4.0
+Version:        2.4.4
 Release:        1
 Summary:        Climate Data Operators
 License:        GPLv2
@@ -52,7 +52,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/bin/cdo
 
 %changelog
-* Thu Sep 19 2024 Daniele Branchini <dbranchini@arpae.it> - 2.4.0-1
+* Fi Sep 20 2024 Daniele Branchini <dbranchini@arpae.it> - 2.4.4-1
 - Upstream update, added eccodes (GRIB/GRIB2) support
 
 * Fri May 19 2023 - Emanuele Di Giacomo <edigiacomo@arpae.it> - 2.2.0-3
