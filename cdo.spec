@@ -52,7 +52,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/bin/cdo
 
 %changelog
-* Fi Sep 20 2024 Daniele Branchini <dbranchini@arpae.it> - 2.4.4-1
+* Fri Sep 20 2024 Daniele Branchini <dbranchini@arpae.it> - 2.4.4-1
 - Upstream update, added eccodes (GRIB/GRIB2) support
 
 * Fri May 19 2023 - Emanuele Di Giacomo <edigiacomo@arpae.it> - 2.2.0-3
