@@ -1,6 +1,7 @@
 [![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/rocky9.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
-[![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/fedora40.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
+[![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/rocky10.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
 [![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/fedora42.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
+[![Build Status](https://simc.arpae.it/moncic-ci/cdo-rpm/fedora44.png)](https://simc.arpae.it/moncic-ci/cdo-rpm/)
 [![Build Status](https://copr.fedorainfracloud.org/coprs/simc/stable/package/cdo/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/simc/stable/package/cdo/)
 
 # rpm packaging files for cdo
